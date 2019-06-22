@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="com_google_android_gms_fonts_certs">com_google_android_gms_fonts_certs
+    </string-array>
+
+
+    <string-array name="level_1">
+        <item>Emphesize Problem Solving</item>
+        <item>Level #1</item>
+        <item>A manual or help system should help users solve problems in the workplace. Some problems might include:
+        "How can I organize this project?" "Where should company invest development time?" or "Where can I find the peak intensity of data?"
+        You can help the user through introductory paragraphs that preview not only the steps to follow, but the goals and objectives of their
+        software work, "Writing to Teach, you have opportunities to encourage creative solutions</item>
+
+        <item>Example on Emphasize problem solving strategy:
+                                   TaskOrientedStrategies application helps the student that takes documentation course
+                                   to learn the nine strategies of how to develop task-oriented document in easy and fun way.</item>
+
+        <item>What are the problems that face user in workplace when using manual?</item>
+        <item>How to develop new project?</item>
+        <item>How can i organize this project?</item>
+        <item>First + Second.</item>
+        <item>None of the above.</item>
+
+        <item>When using manual or help system that includes problem solving, How it help the users?</item>
+        <item>solve problems in workplace, preview not only steps to follow but objectives and goals.</item>
+        <item>Make easy report to the project admin.</item>
+        <item>None of the above.</item>
+        <item>First + Second.</item>
+
+    </string-array>
+
+    <string-array name="level_2">
+        <item>Provide Task-Oriented Organization</item>
+        <item>Level #2</item>
+        <item>Organize a manual or help system in a way that matches the kinds of tasks a user will perform. or example a word processing
+            manual that follows the "open a file type in words, save the file exit the program" sequence would seemmore logical than one
+            organized alphabetieally for example, or according to the menus of the program. A task-oriented arrangement begins in the table
+            of contents (of your manual) or the introductory screen (of your help system). As the following chapters will show,
+            a task orientation should pervade the design of your manual or help system so that even the seemingly mechanical forms of reference
+            have the right touch to make them very functional in the workplace.</item>
+
+        <item>Example on Task-Oriented Organization strategy:
+        in TaskOrientedStrategies application first you have to press start button to transfer you to the game level,
+        then you start learning throw level to getting more pro in this game until you finish the nine levels and last
+        but not least you can view your total effort after finishing them.</item>
+
+        <item>What Task-Oriented organization means ?</item>
+        <item>means organize the manual in regular way.</item>
+        <item>organize in way that matches the kinds of tasks a user will perform.</item>
+        <item>First + Second.</item>
+        <item>None of the above.</item>
+
+        <item>How to organize manual in task-oriented manner?</item>
+        <item>Based on alphabetical order or what user like to perform first.</item>
+        <item>Based on sequance of actions and logical organization.</item>
+        <item>None of the above.</item>
+        <item>First + Second.</item>
+
+    </string-array>
+
+    <string-array name="level_3">
+        <item>Encorage User Control Of Information.</item>
+        <item>Level #3</item>
+        <item>Encourage "User control of information' means the feeling, among software users, that they decide what the program does
+            for them To encourage this the manual should users how to make key decisions, supply key information, or determine key
+            program outputs Examples include: specifying what a database program will search for and identifying which data the program
+            will process . Users need to feel in control of the program.
+            Cross-references in manuals and hypertext links in online systems can help maintain the user's
+            sense of control over the documentation because these document design elements allow users to choose where they go for additional
+            information, or where to proceed after they have finished a section.
+        </item>
+        <item>Example on Encourage User Control Of Information strategy:
+              Specifying what a database program will search for and identifying which data the program
+        will process.</item>
+        <item>How to make the user manual encourage users control of the information?</item>
+        <item>Show the user steps how to follow and control the layout of the information.</item>
+        <item>Teach the user how to make key decisions, supply key information, determine key program output.</item>
+        <item>First + Second.</item>
+        <item>None of the above.</item>
+
+        <item>How Corss-reference and hypertext links in online system help user to control over the documentation?</item>
+        <item>Allow the users to balance graphics and text and also to maintain the appropriate density of print.</item>
+        <item>Make the document easy to use or maintain information.</item>
+        <item>None of the above.</item>
+        <item>First + Second.</item>
+
+    </string-array>
+
+    <string-array name="level_4">
+        <item>Orient Pages Semantically</item>
+        <item>Level #4</item>
+        <item>Semantic orientation in page design means you arrange the elements of the page meaningfully, according to elements of the
+            job the user needs to perform. Other examples of semantic organization include putting important elements first and making important
+            elements larger to help users apply the program to their work. One of the best way to orient pages semantically employs visuals
+            and graphics to balance text in a complementary way. "Laying Out Pages and Screens discusses ways to balance graphics
+            and text and also to maintain the appropriate den sity of print and legibility of letters. These basic elements can contribute
+            to the usability information in the workplace.
+</item>
+        <item>Example on Orient Pages Semantically strategy:
+                                   Organize the tasks based on the flow of events or scinario that the user needs to perform
+        and putting importanat elements first, making them in larger fonts.</item>
+
+        <item>What Semantic Orientation design means?</item>
+        <item>Design the document in alphabatical order</item>
+        <item>Desgin the document based on how the user want see it.</item>
+        <item>Based on putting important elements first and make it in larger fonts.</item>
+        <item>None of the above.</item>
+
+        <item>How to orient pages semantically?</item>
+        <item>Make all the details explicit to the user.</item>
+        <item>Employs visuals and graphics to balance text in a complementary way.</item>
+        <item>None of the above.</item>
+        <item>Third + Second.</item>
+
+    </string-array>
+
+    <string-array name="level_5">
+        <item>Facilitate Routine and complex tasks.</item>
+        <item>Level #5</item>
+        <item>As Barbara Mirel points out, users of software face both routine tasks and complex tasks. Routine tasks include
+            repeatable tasks that are easily represented by convtional procedures. She points out, however, that
+            "Complex tasks differ from routine tasks such as data entry of standard accounting calculations because they are not performed
+            the same way every time. Routine tasks are often those represented by menu functions in a program
+            ("Save a file "Delete a record and so on) but complex tasks require the user to apply knowledge that isn't easily
+            codified in step-by-step procedures. This knowledge, called tacit or pragmatic knowledge consists of insider knowledge
+            that comes from years of experience. Using a spreadsheet to schedule employees fairly, or using a word processor to
+            identify trends in annual reports: these tasks are highly dependent on the situation surrounding the user and can not
+            be easily represented by manuals that cover only menu functions However, the more you can help users apply software to
+            complex tasks the more users will value your manual or help system. You learn about users' routine and complex tasks
+            during the user analysis, "Analyzing Your Users.</item>
+
+        <item>Example on Facilitate Rotine and complex tasks strategy:
+                                   Rotine Tasks such as: tasks in word processor (save file, delete record and open file)\n
+                                   Complex Tasks such as: tasks that needs experience and pragmatic knowledge such as (calculate the average salary
+                                   in excel and install windows OS in device).</item>
+
+        <item>What Complex Tasks means?</item>
+        <item>Tasks that requires experts and profisonals to perform.</item>
+        <item>require the user to apply knowledge that isn't easily
+            codified in step-by-step procedures</item>
+        <item>First + Second.</item>
+        <item>None of the above.</item>
+
+        <item>What is the difference between routine and complex tasks?</item>
+        <item>Routine Tasks is more complex to perform.</item>
+        <item>data entry of standard accounting calculations because they are not performed
+            the same way every time.</item>
+        <item>None of the above.</item>
+        <item>First + Second.</item>
+
+    </string-array>
+
+    <string-array name="level_6">
+        <item>Design For Users</item>
+        <item>Level #6</item>
+        <item>Design for Users (user-driven) The concept of user-driven design means that the organization of a manual comes from the
+            user\'s needs rather than from models or templates what a user's Hook -or from schemes based on giving some users one kind
+            of information and other users other information. According to Janice Redish, user-driven design should allow users to
+            Find what they need, Understand what they find and Use what they understand appropriately User-driven design requires the kind
+            of extensive user analysis "Conducting Usability Tests." It
+            means that each manual or help system presents you with new design challenges that you can only meet by involving the
+            user in the document development process ,you will find that each of the topic areas discussed in that chapter ties
+            in to specific techniques, such
+            as using icons to suggest key points or tables to show how features and their uses can add to the task orientation,
+            and thus the value, your documents.
+</item>
+        <item>Example on Design For Users strategy:
+                                   Such as the interactive manual first time it popup tells the users
+            first task to do and it designed to match the user\'s needs.</item>
+
+        <item>What User-Driven means?</item>
+        <item>means that the organization of a manual comes from the
+            user\'s needs rather than from models or templates</item>
+        <item>Let the user control what details popup for him/her</item>
+        <item>First + Second.</item>
+        <item>None of the above.</item>
+
+        <item>What User-Driven allows to users?</item>
+        <item>desgin the document based on how the user like to.</item>
+        <item>Find What they need, understand what they find and apply what they understand.</item>
+        <item>None of the above.</item>
+        <item>First + Second.</item>
+
+    </string-array>
+
+    <string-array name="level_7">
+        <item>Facilitate Communication Tasks</item>
+        <item>Level #7</item>
+        <item>Users of software programs work in contexts that require them to communicate about their work. These tasks are called
+            communication tasks because they depend on the user's workplace demands rather than on a narrow view of program features.
+            Face it just opening a file is only part of the picture from the user's perspective-the user opens a file so that he or
+            she can communicate information to another person, not for its own sake. Document designers can help users see the why
+            behind the program fea tures by analyzing what kinds of information users need and how they communicate and then identifying
+            those program features for example, print functions, report functions, or disk output functions-that support communication tasks.
+            Also, communication tasks are facilitated by tasks that transfer data from one application to another How do you help users
+            with communication tasks? Learning about the user's communication tasks presents a great opportunity to record the common
+            terminology for procedures and tasks—the "jargon" that you can use and writing steps and explanations.
+</item>
+        <item>Example on Facilitate Communication Tasks strategy:
+                                   Every action that the user communicate with the document(how to get specific information,
+                                    how to retrive data and what information i need to know).</item>
+
+        <item>Why when the users communicate with the software for workplace called communication tasks?</item>
+        <item>they depend on the user's workplace demands rather than on a narrow view of program features.</item>
+        <item>Because they communicate with the project admin.</item>
+        <item>Because they communicate with the project clients.</item>
+        <item>None of the above.</item>
+
+        <item>One of these examples on Facilitate Communication Tasks is correct?</item>
+        <item>Interview clients, support ideas to project and feedback from users.</item>
+        <item>print functions, report functions, or disk output functions.</item>
+        <item>Specify the what type of information i need to get from this app.</item>
+        <item>None of the above.</item>
+
+    </string-array>
+
+    <string-array name="level_8">
+        <item>Encourage User Communities</item>
+        <item>Level #8</item>
+        <item>Users often need encouragement to rely on other users of the program, their user community; task-oriented documentation
+            encourages users to identify and get help from others. Other users of the program, while not exactly experts in the software,
+            can render valuable help because they understand the user's job demands. Companies foster user communities with mailing lists,
+            article archives, and contact lists other information specifically for users of their products. Figure 1.4 shows an ex ple user
+            community web page for users of a popular media playing program. a person writing, say, a for this program, this site would
+            provide valuable information about the users of the product. User communities,
+            "Analyzing Your Users provide a wealth of information about user tasks. Users can also help support y evelopment effort.
+             "Planning and Writing Your Documents discu the of including users in the development process through interviews
+            and cl idea can help provide candidates for this kind of user involement reviews. User communities document development.
+
+</item>
+        <item>Example on Encourage User Communities strategy:
+                                   go to these websites to get to get more information about this topic Such as dell support system,
+            Windows media technology and stackoverflow.</item>
+
+        <item>What we mean by user communities?</item>
+        <item>Your colleagues at work?</item>
+        <item>Other users of the program that have job demands and expirence</item>
+        <item>First + Second.</item>
+        <item>None of the above.</item>
+
+        <item>How user communities helps user in their workplace?</item>
+        <item>Encourage user to rely on other users to get valuable information.</item>
+        <item>To get better solutions for problems in user workplace.</item>
+        <item>None of the above.</item>
+        <item>First + Second.</item>
+
+    </string-array>
+
+    <string-array name="level_9">
+        <item>Support Cognitive Schema</item>
+        <item>Level #9</item>
+        <item>Since the advent of computerized work in business and industry, we have learned much about how users process information.
+            We have learned that people use mental models, called cognitive schema, that help them learn new information,
+            process the information, and apply the information that comes at them at an alarmingly faster and faster rate.
+            The task-oriented manual uses principles of knowledge representation, parallelism, and analogy to convey software
+            features and applications to workplace tasks. "Writing to Support-Reference,
+            allow users to absorb what your manual or help system has to say with as little effort as possible For the modern professional
+            in business and industry, the software program lies at the heart of the knowledge management problem because computers both
+            represent the cause and the solution to the problem. Computers generate comple information, and computer software allows
+            the user to store, transfer, and present Our it. understanding of how computers affect work grows through research on the
+            impact the point of on people's work and workplace roles. If we explore software use from good view of the user's information
+            environment, we sce a strong need for software documentation.
+</item>
+        <item>Example on Support Cognitive Schema strategy:
+                                   TaskOrientedStrategies application helps the student that takes documentation course
+                                   to learn the nine strategies of how to develop task-oriented document in easy and fun way.</item>
+        <item>What is the Cognitive Schema?</item>
+        <item>a set of steps the user perform to get help from others.</item>
+        <item>is a mental model help users to process information.</item>
+        <item>First + Second.</item>
+        <item>None of the above.</item>
+
+        <item>How users get help from Cognitive Schema?</item>
+        <item>Ask other communities.</item>
+        <item>learn new inforamtion, process the information and apply the information.</item>
+        <item>None of the above.</item>
+        <item>First + Second.</item>
+
+    </string-array>
+
+</resources>

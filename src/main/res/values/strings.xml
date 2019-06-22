@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Task-Oriented Strategies</string>
+    <string name="logo">Task-Oriented Strategies</string>
+    <string name="let_s_have_fun">Let\'s Have Fun</string>
+    <string name="task_oriented_strategies">Task-Oriented Strategies</string>
+    <string name="heading">Heading</string>
+    <string name="summery">SUMMERY</string>
+
+    <string name="level_one">Emphesize Problem Solving</string>
+<string name="level_1_tag">Level #1</string>
+<string name="first_stra_text">A manual or help system should help users solve problems in the workplace. Some problems might include:
+        "How can I organize this project?" "Where should company invest development time?" or "Where can I find the peak intensity of data?"
+        You can help the user through introductory paragraphs that preview not only the steps to follow, but the goals and objectives of their
+        software work, "Writing to Teach, you have opportunities to encourage creative solutions
+</string>
+
+<string name="level_1_example">Example on Emphasize problem solving strategy:
+                                   TaskOrientedStrategies application helps the student that takes documentation course
+                                   to learn the nine strategies of how to develop task-oriented document in easy and fun way.</string>
+
+<string name="level_1_question_1">What are the problems that face user in workplace when using manual?</string>
+<string name="level_1_question_1_ans_1">How to develop new project?</string>
+<string name="level_1_question_1_ans_2">How can i organize this project?</string>
+<string name="level_1_question_1_ans_3">First + Second.</string>
+<string name="level_1_question_1_ans_4">None of the above.</string>
+
+<string name="level_1_question_2">When using manual or help system that includes problem solving, How it help the users?</string>
+<string name="level_1_question_2_ans_1">solve problems in workplace, preview not only steps to follow but objectives and goals.</string>
+<string name="level_1_question_2_ans_2">Make easy report to the project admin.</string>
+<string name="level_1_question_2_ans_3">None of the above.</string>
+<string name="level_1_question_2_ans_4">First + Second.</string>
+    <string name="show_summary">SHOW SUMMARY</string>
+    <string name="don_t_have_account_create_one_won_t_take_long">Don\'t have account? create one won\'t take long</string>
+
+
+</resources>

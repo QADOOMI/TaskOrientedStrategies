@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/grey">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="70dp"
+                android:fontFamily="@font/pacifico"
+                android:paddingLeft="10dp"
+                android:text="@string/level_one"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+        </android.support.v7.widget.Toolbar>
+
+        <TextView
+            android:id="@+id/levelText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/pacifico"
+            android:padding="0dp"
+            android:text="@string/level_1_tag"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            app:layout_constraintEnd_toStartOf="@+id/guideline3"
+            app:layout_constraintStart_toStartOf="@+id/guideline"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar2" />
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/item_style"
+            android:padding="8dp"
+            android:text="@string/first_stra_text"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/guideline"
+            app:layout_constraintTop_toBottomOf="@+id/aboutThisStrategyTag" />
+
+        <TextView
+            android:id="@+id/aboutThisStrategyTag"
+            style="@style/rr"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/item_style"
+            android:padding="8dp"
+            android:text="About this Strategy:"
+            android:textColor="@color/white"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/guideline"
+            app:layout_constraintTop_toBottomOf="@+id/levelText" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginStart="8dp"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="24dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/exampleTag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/item_style"
+            android:padding="8dp"
+            android:text="Exmple: "
+            android:textColor="@color/white"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/guideline"
+            app:layout_constraintTop_toBottomOf="@+id/desc" />
+
+        <TextView
+            android:id="@+id/exampleText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/item_style"
+            android:ems="10"
+            android:padding="8dp"
+            android:text="@string/level_1_example"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            app:layout_constraintEnd_toStartOf="@+id/guideline3"
+            app:layout_constraintStart_toStartOf="@+id/guideline"
+            app:layout_constraintTop_toBottomOf="@+id/exampleTag" />
+
+        <TextView
+            android:id="@+id/qus_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/item_style"
+            android:padding="8dp"
+            android:text="@string/level_1_question_1"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline3"
+            app:layout_constraintStart_toStartOf="@+id/guideline"
+            app:layout_constraintTop_toBottomOf="@+id/exampleText" />
+
+
+        <RadioGroup
+            android:id="@+id/q_1_ans_1_group"
+            android:layout_width="0dp"
+            android:layout_height="173dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/qus_1">
+
+            <RadioButton
+                android:id="@+id/r1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="12dp"
+                android:buttonTint="@color/red"
+                android:textColor="@color/red"
+                android:text="@string/level_1_question_1_ans_1"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/editText5" />
+
+            <RadioButton
+                android:id="@+id/r2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:buttonTint="@color/red"
+                android:textColor="@color/red"
+                android:text="@string/level_1_question_1_ans_2"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/radioButton2" />
+
+            <RadioButton
+                android:id="@+id/r3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:buttonTint="@color/red"
+                android:textColor="@color/red"
+                android:text="@string/level_1_question_1_ans_3"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/radioButton3" />
+
+            <RadioButton
+                android:id="@+id/r4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:buttonTint="@color/red"
+                android:textColor="@color/red"
+                android:text="@string/level_1_question_1_ans_4"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/radioButton" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/qus_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/item_style"
+            android:padding="8dp"
+            android:text="@string/level_1_question_2"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline3"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/guideline"
+            app:layout_constraintTop_toBottomOf="@+id/q_1_ans_1_group" />
+
+
+        <RadioGroup
+            android:id="@+id/q_2_ans_1_group"
+            android:layout_width="0dp"
+            android:layout_height="179dp"
+            android:layout_marginStart="24dp"
+            app:layout_constraintEnd_toStartOf="@+id/guideline3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/qus_2">
+
+            <RadioButton
+                android:id="@+id/r11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="12dp"
+                android:buttonTint="@color/red"
+                android:textColor="@color/red"
+                android:text="@string/level_1_question_2_ans_1"
+
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/editText5" />
+
+            <RadioButton
+                android:id="@+id/r22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:buttonTint="@color/red"
+                android:textColor="@color/red"
+                android:text="@string/level_1_question_2_ans_2"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/radioButton2" />
+
+            <RadioButton
+                android:id="@+id/r33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:buttonTint="@color/red"
+                android:textColor="@color/red"
+                android:text="@string/level_1_question_2_ans_3"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/radioButton3" />
+
+            <RadioButton
+                android:id="@+id/r44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:buttonTint="@color/red"
+                android:textColor="@color/red"
+                android:text="@string/level_1_question_2_ans_4"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/radioButton" />
+        </RadioGroup>
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline3"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginEnd="8dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintGuide_end="31dp"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/submit_btn"
+            android:layout_width="217dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/button_style"
+            android:foreground="?attr/selectableItemBackground"
+            android:paddingBottom="16dp"
+            android:paddingTop="16dp"
+            android:text="SUBMIT ANSWER"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/guideline3"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/q_2_ans_1_group" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/button_style"
+            android:foreground="?attr/selectableItemBackground"
+            android:padding="16dp"
+            android:text="BACK"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toStartOf="@+id/submit_btn"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/guideline"
+            app:layout_constraintTop_toBottomOf="@+id/q_2_ans_1_group" />
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
